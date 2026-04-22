@@ -10,7 +10,7 @@ class Transaction:
 
     datetime: datetime
     amount: float
-    type: str  # "Доход" | "Расход"
+    type: str
     category: str
     subcategory: str | None
     account: str
@@ -22,6 +22,6 @@ class Account:
     """Счёт или кошелёк."""
 
     name: str
-    type: str  # cash, card, crypto, etc.
+    type: str
     currency: str = "RUB"
     initial_balance: float = 0.0

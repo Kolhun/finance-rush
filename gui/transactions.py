@@ -8,7 +8,6 @@ from models import Transaction
 from storage import append_transaction_to_csv, load_transactions_from_csv
 from gui.import_dialog import ImportDialog
 
-# Фиксированные списки для ComboBox (по плану — упрощённый вариант)
 DEFAULT_ACCOUNTS = ["Тинькофф", "Сбер", "Наличные", "Крипто"]
 DEFAULT_CATEGORIES = [
     "Еда",
